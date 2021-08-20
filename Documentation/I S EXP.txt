@@ -1,0 +1,10 @@
+Please find the pdf attached.
+It shows the calculation of fuel weight fraction and hence fuel at different stages of flight. 
+What you'll notice is that the total fuel weight fraction is calculated first, with respect to the total weight of the aircraft (initial maximum take-off weight). 
+Then, by iteration, a ballpark MTOW is estimated. 
+Then, using the fuel weight fraction that we already determined in the previous step, the weight of the fuel is calculated.
+Now you'll proceed with component weight estimation using these values. 
+The fuel weight fraction remains the same throughout because it depends only on range, endurance, aerodynamic efficiency, and specific fuel consumption. (SFC).
+However, with the new weight estimated from the component weight estimation method, 
+the weight of the fuel will be the fuel weight fraction (from the first step) multiplied by the new weight of the aircraft.
+
